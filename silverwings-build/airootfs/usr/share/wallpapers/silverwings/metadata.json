@@ -1,0 +1,13 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Id": "silverwings",
+        "Name": "silver wings",
+        "License": "none",
+        "Authors": [
+            {
+                "Name": "y64xt"
+            }
+        ]
+    }
+}

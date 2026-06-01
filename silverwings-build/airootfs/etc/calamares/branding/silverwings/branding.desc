@@ -1,0 +1,28 @@
+---
+componentName:  silverwings
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+
+strings:
+    productName:         "Silver Wings"
+    shortProductName:    "Silver Wings"
+    version:             "Rolling"
+    shortVersion:        "Rolling"
+    versionedName:       "Silver Wings Linux"
+    shortVersionedName:  "Silver Wings"
+    bootloaderEntryName: "Silver Wings"
+    productUrl:          "https://example.com"
+    supportUrl:          "https://example.com"
+    releaseNotesUrl:     "https://example.com"
+
+images:
+    productLogo:         "silverwings-logo.png"
+    productIcon:         "silverwings-logo.png"
+    productWelcome:      "silverwings-wallpaper.png"
+
+style:
+   SidebarBackground:    "#111111"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#0dff84"
+   SidebarBackgroundCurrent: "#1a1a1a"

@@ -1,0 +1,13 @@
+[Unit]
+Description=Setup Silver Wings Live User
+Before=sddm.service
+
+[Service]
+Type=oneshot
+ExecStart=-/usr/bin/useradd -m -G wheel -s /bin/bash liveuser
+ExecStart=-/usr/bin/passwd -d liveuser
+ExecStart=/bin/sh -c 'echo "liveuser ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/liveuser'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
